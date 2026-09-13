@@ -1,0 +1,43 @@
+# Keil MDK build output
+BareMetal/
+MDK-ARM/BareMetal/
+Listings/
+Objects/
+*.o
+*.d
+*.crf
+*.htm
+*.map
+*.lnp
+*.sct
+*.dep
+*.hex
+*.axf
+*.build_log.htm
+
+# Keil project user-specific files
+*.uvoptx
+*.uvguix.*
+*.uvmpw
+*.uvguix
+*.uvgui.*
+
+# Debug
+DebugConfig/
+*.dbgconf
+JLinkLog.txt
+JLinkSettings.ini
+
+# CubeMX
+RTE/
+*.bak
+*.ioc.bak
+
+# OS / Editor
+*.swp
+*.swo
+*.tmp
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
